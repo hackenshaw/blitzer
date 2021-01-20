@@ -364,7 +364,7 @@
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/medhatriad/blitzEngine.git";
 			requirement = {
-				branch = main;
+				branch = dev;
 				kind = branch;
 			};
 		};
