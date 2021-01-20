@@ -16,7 +16,7 @@ struct TopMenuViewCube: View {
                 .resizable()
                 .frame(width: 100, height: 110)
                 .foregroundColor(.gray)
-                .shadow(color: .gray, radius: 5, x: 0, y: 0)
+                .shadow(color: .gray, radius: 1, x: 0, y: 0)
         }.padding(5)
     }
 }
