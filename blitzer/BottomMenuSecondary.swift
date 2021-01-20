@@ -18,7 +18,7 @@ struct BottomMenuSecondary: View {
                         .resizable()
                         .frame(width: 52, height: 42)
                         .foregroundColor(.gray)
-                        .shadow(color: .gray, radius: 5, x: 0, y: 0)
+                        .shadow(color: .gray, radius: 1, x: 0, y: 0)
                 }.padding(5)
                 Button(action: {
                     print("Button + pressed")
@@ -27,7 +27,7 @@ struct BottomMenuSecondary: View {
                         .resizable()
                         .frame(width: 52, height: 42)
                         .foregroundColor(.gray)
-                        .shadow(color: .gray, radius: 5, x: 0, y: 0)
+                        .shadow(color: .gray, radius: 1, x: 0, y: 0)
                 }.padding(5)
                 Button(action: {
                     print("Button + pressed")
@@ -36,7 +36,7 @@ struct BottomMenuSecondary: View {
                         .resizable()
                         .frame(width: 50, height: 40)
                         .foregroundColor(.gray)
-                        .shadow(color: .gray, radius: 5, x: 0, y: 0)
+                        .shadow(color: .gray, radius: 1, x: 0, y: 0)
                 }.padding(5)
         }
     }
