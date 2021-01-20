@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -11,6 +11,13 @@
 		25E3E64D25B73D6C004A96FF /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25E3E64C25B73D6C004A96FF /* ContentView.swift */; };
 		25E3E64F25B73D6F004A96FF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 25E3E64E25B73D6F004A96FF /* Assets.xcassets */; };
 		25E3E65225B73D6F004A96FF /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 25E3E65125B73D6F004A96FF /* Preview Assets.xcassets */; };
+		25E3E65D25B75D55004A96FF /* blitzEngine in Frameworks */ = {isa = PBXBuildFile; productRef = 25E3E65C25B75D55004A96FF /* blitzEngine */; };
+		25E3E66425B7846E004A96FF /* SideMenuPrimary.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25E3E66325B7846E004A96FF /* SideMenuPrimary.swift */; };
+		25E3E66725B78B35004A96FF /* TopMenuPrimary.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25E3E66625B78B35004A96FF /* TopMenuPrimary.swift */; };
+		25E3E66A25B78C91004A96FF /* TopMenuToolTip.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25E3E66925B78C91004A96FF /* TopMenuToolTip.swift */; };
+		25E3E66D25B7999F004A96FF /* TopMenuViewCube.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25E3E66C25B7999F004A96FF /* TopMenuViewCube.swift */; };
+		25E3E67025B79AF2004A96FF /* BottomMenuPrimary.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25E3E66F25B79AF2004A96FF /* BottomMenuPrimary.swift */; };
+		25E3E67325B79BFF004A96FF /* BottomMenuSecondary.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25E3E67225B79BFF004A96FF /* BottomMenuSecondary.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +27,12 @@
 		25E3E64E25B73D6F004A96FF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		25E3E65125B73D6F004A96FF /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		25E3E65325B73D6F004A96FF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		25E3E66325B7846E004A96FF /* SideMenuPrimary.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SideMenuPrimary.swift; sourceTree = "<group>"; };
+		25E3E66625B78B35004A96FF /* TopMenuPrimary.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopMenuPrimary.swift; sourceTree = "<group>"; };
+		25E3E66925B78C91004A96FF /* TopMenuToolTip.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopMenuToolTip.swift; sourceTree = "<group>"; };
+		25E3E66C25B7999F004A96FF /* TopMenuViewCube.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopMenuViewCube.swift; sourceTree = "<group>"; };
+		25E3E66F25B79AF2004A96FF /* BottomMenuPrimary.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BottomMenuPrimary.swift; sourceTree = "<group>"; };
+		25E3E67225B79BFF004A96FF /* BottomMenuSecondary.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BottomMenuSecondary.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -27,6 +40,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				25E3E65D25B75D55004A96FF /* blitzEngine in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -54,6 +68,12 @@
 			children = (
 				25E3E64A25B73D6C004A96FF /* blitzerApp.swift */,
 				25E3E64C25B73D6C004A96FF /* ContentView.swift */,
+				25E3E66325B7846E004A96FF /* SideMenuPrimary.swift */,
+				25E3E66625B78B35004A96FF /* TopMenuPrimary.swift */,
+				25E3E66F25B79AF2004A96FF /* BottomMenuPrimary.swift */,
+				25E3E67225B79BFF004A96FF /* BottomMenuSecondary.swift */,
+				25E3E66925B78C91004A96FF /* TopMenuToolTip.swift */,
+				25E3E66C25B7999F004A96FF /* TopMenuViewCube.swift */,
 				25E3E64E25B73D6F004A96FF /* Assets.xcassets */,
 				25E3E65325B73D6F004A96FF /* Info.plist */,
 				25E3E65025B73D6F004A96FF /* Preview Content */,
@@ -85,6 +105,9 @@
 			dependencies = (
 			);
 			name = blitzer;
+			packageProductDependencies = (
+				25E3E65C25B75D55004A96FF /* blitzEngine */,
+			);
 			productName = blitzer;
 			productReference = 25E3E64725B73D6C004A96FF /* blitzer.app */;
 			productType = "com.apple.product-type.application";
@@ -112,6 +135,9 @@
 				Base,
 			);
 			mainGroup = 25E3E63E25B73D6B004A96FF;
+			packageReferences = (
+				25E3E65B25B75D55004A96FF /* XCRemoteSwiftPackageReference "blitzEngine" */,
+			);
 			productRefGroup = 25E3E64825B73D6C004A96FF /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -139,7 +165,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				25E3E64D25B73D6C004A96FF /* ContentView.swift in Sources */,
+				25E3E66425B7846E004A96FF /* SideMenuPrimary.swift in Sources */,
 				25E3E64B25B73D6C004A96FF /* blitzerApp.swift in Sources */,
+				25E3E66A25B78C91004A96FF /* TopMenuToolTip.swift in Sources */,
+				25E3E67025B79AF2004A96FF /* BottomMenuPrimary.swift in Sources */,
+				25E3E66D25B7999F004A96FF /* TopMenuViewCube.swift in Sources */,
+				25E3E67325B79BFF004A96FF /* BottomMenuSecondary.swift in Sources */,
+				25E3E66725B78B35004A96FF /* TopMenuPrimary.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -279,7 +311,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.labfortyseven.blitzer;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 2;
 			};
 			name = Debug;
 		};
@@ -300,7 +332,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.labfortyseven.blitzer;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 2;
 			};
 			name = Release;
 		};
@@ -326,6 +358,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		25E3E65B25B75D55004A96FF /* XCRemoteSwiftPackageReference "blitzEngine" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/medhatriad/blitzEngine.git";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		25E3E65C25B75D55004A96FF /* blitzEngine */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 25E3E65B25B75D55004A96FF /* XCRemoteSwiftPackageReference "blitzEngine" */;
+			productName = blitzEngine;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 25E3E63F25B73D6B004A96FF /* Project object */;
 }
