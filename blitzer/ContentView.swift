@@ -16,7 +16,7 @@ struct ContentView: View {
                 .statusBar(hidden: true)
             VStack{
                 ZStack(alignment: Alignment(horizontal: .center, vertical: .top)){
-                    TopMenuToolTip().padding(.top, 25)
+                    //TopMenuToolTip().padding(.top, 25)
                     HStack{
                         TopMenuViewCube().padding(.leading)
                         Spacer()
