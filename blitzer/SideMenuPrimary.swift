@@ -17,8 +17,8 @@ struct SideMenuPrimary: View {
                 Image(systemName: "pencil.tip.crop.circle")
                     .resizable()
                     .frame(width: 50, height: 50)
-                    .foregroundColor(.gray)
-                    .shadow(color: .gray, radius: 1, x: 0, y: 0)
+                    .foregroundColor(Colors.foreground)
+                    .shadow(color: Colors.shadow, radius: 1, x: 0, y: 0)
             }.padding(5)
             Button(action: {
                 print("Button + pressed")
@@ -26,8 +26,8 @@ struct SideMenuPrimary: View {
                 Image(systemName: "plus.circle")
                     .resizable()
                     .frame(width: 50, height: 50)
-                    .foregroundColor(.gray)
-                    .shadow(color: .gray, radius: 1, x: 0, y: 0)
+                    .foregroundColor(Colors.foreground)
+                    .shadow(color: Colors.shadow, radius: 1, x: 0, y: 0)
             }.padding(5)
             Button(action: {
                 print("Button + pressed")
@@ -35,8 +35,8 @@ struct SideMenuPrimary: View {
                 Image(systemName: "pencil.circle")
                     .resizable()
                     .frame(width: 50, height: 50)
-                    .foregroundColor(.gray)
-                    .shadow(color: .gray, radius: 1, x: 0, y: 0)
+                    .foregroundColor(Colors.foreground)
+                    .shadow(color: Colors.shadow, radius: 1, x: 0, y: 0)
             }.padding(5)
             Button(action: {
                 print("Button + pressed")
@@ -44,8 +44,8 @@ struct SideMenuPrimary: View {
                 Image(systemName: "archivebox.circle")
                     .resizable()
                     .frame(width: 50, height: 50)
-                    .foregroundColor(.gray)
-                    .shadow(color: .gray, radius: 1, x: 0, y: 0)
+                    .foregroundColor(Colors.foreground)
+                    .shadow(color: Colors.shadow, radius: 1, x: 0, y: 0)
             }.padding(5)
             Button(action: {
                 print("Button + pressed")
@@ -53,8 +53,8 @@ struct SideMenuPrimary: View {
                 Image(systemName: "trash.circle")
                     .resizable()
                     .frame(width: 50, height: 50)
-                    .foregroundColor(.gray)
-                    .shadow(color: .gray, radius: 1, x: 0, y: 0)
+                    .foregroundColor(Colors.foreground)
+                    .shadow(color: Colors.shadow, radius: 1, x: 0, y: 0)
             }.padding(5)
         
             }

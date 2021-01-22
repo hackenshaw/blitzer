@@ -17,8 +17,8 @@ struct BottomMenuPrimary: View {
                     Image(systemName: "square.2.stack.3d")
                         .resizable()
                         .frame(width: 50, height: 40)
-                        .foregroundColor(.gray)
-                        .shadow(color: .gray, radius: 1, x: 0, y: 0)
+                        .foregroundColor(Colors.foreground)
+                        .shadow(color: Colors.shadow, radius: 1, x: 0, y: 0)
                 }.padding(5)
                 Button(action: {
                     print("Button + pressed")
@@ -26,8 +26,8 @@ struct BottomMenuPrimary: View {
                     Image(systemName: "arrow.uturn.backward.square")
                         .resizable()
                         .frame(width: 50, height: 40)
-                        .foregroundColor(.gray)
-                        .shadow(color: .gray, radius: 1, x: 0, y: 0)
+                        .foregroundColor(Colors.foreground)
+                        .shadow(color: Colors.shadow, radius: 1, x: 0, y: 0)
                 }.padding(5)
                 Button(action: {
                     print("Button + pressed")
@@ -35,8 +35,8 @@ struct BottomMenuPrimary: View {
                     Image(systemName: "arrow.uturn.forward.square")
                         .resizable()
                         .frame(width: 50, height: 40)
-                        .foregroundColor(.gray)
-                        .shadow(color: .gray, radius: 1, x: 0, y: 0)
+                        .foregroundColor(Colors.foreground)
+                        .shadow(color: Colors.shadow, radius: 1, x: 0, y: 0)
                 }.padding(5)
         }
     }

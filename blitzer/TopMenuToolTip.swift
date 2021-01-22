@@ -20,7 +20,7 @@ struct TopMenuToolTip: View {
                 Text("Description of what the tool can do")
                     .padding([.bottom, .horizontal])
                     .foregroundColor(.white)
-            }.background(RoundedRectangle(cornerRadius: 20, style: .continuous).fill(Color.gray))
+            }.background(RoundedRectangle(cornerRadius: 20, style: .continuous).fill(Colors.foreground))
             .frame(width: 300, height: 80)
             
         }

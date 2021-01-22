@@ -17,8 +17,8 @@ struct TopMenuPrimary: View {
                     Image(systemName: "dock.arrow.up.rectangle")
                         .resizable()
                         .frame(width: 50, height: 40)
-                        .foregroundColor(.gray)
-                        .shadow(color: .gray, radius: 1, x: 0, y: 0)
+                        .foregroundColor(Colors.foreground)
+                        .shadow(color: Colors.shadow, radius: 1, x: 0, y: 0)
                 }.padding(5)
                 Button(action: {
                     print("Button + pressed")
@@ -26,8 +26,8 @@ struct TopMenuPrimary: View {
                     Image(systemName: "dock.arrow.down.rectangle")
                         .resizable()
                         .frame(width: 50, height: 40)
-                        .foregroundColor(.gray)
-                        .shadow(color: .gray, radius: 1, x: 0, y: 0)
+                        .foregroundColor(Colors.foreground)
+                        .shadow(color: Colors.shadow, radius: 1, x: 0, y: 0)
                 }.padding(5)
                 Button(action: {
                     print("Button + pressed")
@@ -35,8 +35,8 @@ struct TopMenuPrimary: View {
                     Image(systemName: "questionmark.square")
                         .resizable()
                         .frame(width: 50, height: 40)
-                        .foregroundColor(.gray)
-                        .shadow(color: .gray, radius: 1, x: 0, y: 0)
+                        .foregroundColor(Colors.foreground)
+                        .shadow(color: Colors.shadow, radius: 1, x: 0, y: 0)
                 }.padding(5)
             Button(action: {
                 print("Button + pressed")
@@ -44,8 +44,8 @@ struct TopMenuPrimary: View {
                 Image(systemName: "rectangle.split.2x2")
                     .resizable()
                     .frame(width: 50, height: 40)
-                    .foregroundColor(.gray)
-                    .shadow(color: .gray, radius: 1, x: 0, y: 0)
+                    .foregroundColor(Colors.foreground)
+                    .shadow(color: Colors.shadow, radius: 1, x: 0, y: 0)
             }.padding(5)
             
         }
