@@ -9,6 +9,8 @@
 /* Begin PBXBuildFile section */
 		256B51E325BB1DE500369DA0 /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 256B51E225BB1DE500369DA0 /* Colors.swift */; };
 		256B51E625BB22CF00369DA0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 256B51E525BB22CF00369DA0 /* LaunchScreen.storyboard */; };
+		256B51F025BC39C200369DA0 /* RenderUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 256B51EF25BC39C200369DA0 /* RenderUIView.swift */; };
+		256B51F325BC3A3600369DA0 /* Examples.swift in Sources */ = {isa = PBXBuildFile; fileRef = 256B51F225BC3A3600369DA0 /* Examples.swift */; };
 		25E3E64B25B73D6C004A96FF /* blitzerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25E3E64A25B73D6C004A96FF /* blitzerApp.swift */; };
 		25E3E64D25B73D6C004A96FF /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25E3E64C25B73D6C004A96FF /* ContentView.swift */; };
 		25E3E64F25B73D6F004A96FF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 25E3E64E25B73D6F004A96FF /* Assets.xcassets */; };
@@ -25,6 +27,8 @@
 /* Begin PBXFileReference section */
 		256B51E225BB1DE500369DA0 /* Colors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Colors.swift; sourceTree = "<group>"; };
 		256B51E525BB22CF00369DA0 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		256B51EF25BC39C200369DA0 /* RenderUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RenderUIView.swift; sourceTree = "<group>"; };
+		256B51F225BC3A3600369DA0 /* Examples.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Examples.swift; sourceTree = "<group>"; };
 		25E3E64725B73D6C004A96FF /* blitzer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = blitzer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		25E3E64A25B73D6C004A96FF /* blitzerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = blitzerApp.swift; sourceTree = "<group>"; };
 		25E3E64C25B73D6C004A96FF /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -83,6 +87,8 @@
 				25E3E64E25B73D6F004A96FF /* Assets.xcassets */,
 				25E3E65325B73D6F004A96FF /* Info.plist */,
 				25E3E65025B73D6F004A96FF /* Preview Content */,
+				256B51EF25BC39C200369DA0 /* RenderUIView.swift */,
+				256B51F225BC3A3600369DA0 /* Examples.swift */,
 			);
 			path = blitzer;
 			sourceTree = "<group>";
@@ -173,10 +179,12 @@
 			files = (
 				25E3E64D25B73D6C004A96FF /* ContentView.swift in Sources */,
 				256B51E325BB1DE500369DA0 /* Colors.swift in Sources */,
+				256B51F025BC39C200369DA0 /* RenderUIView.swift in Sources */,
 				25E3E66425B7846E004A96FF /* SideMenuPrimary.swift in Sources */,
 				25E3E64B25B73D6C004A96FF /* blitzerApp.swift in Sources */,
 				25E3E66A25B78C91004A96FF /* TopMenuToolTip.swift in Sources */,
 				25E3E67025B79AF2004A96FF /* BottomMenuPrimary.swift in Sources */,
+				256B51F325BC3A3600369DA0 /* Examples.swift in Sources */,
 				25E3E66D25B7999F004A96FF /* TopMenuViewCube.swift in Sources */,
 				25E3E67325B79BFF004A96FF /* BottomMenuSecondary.swift in Sources */,
 				25E3E66725B78B35004A96FF /* TopMenuPrimary.swift in Sources */,
